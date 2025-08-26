@@ -1,7 +1,7 @@
 package com.adil.bookstore.config;
 
-import com.adil.bookstore.service.JWTService;
-import com.adil.bookstore.service.MyUserDetailsService;
+import com.adil.bookstore.service.auth.JWTService;
+import com.adil.bookstore.service.auth.MyUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

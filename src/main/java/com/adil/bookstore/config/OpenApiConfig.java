@@ -39,12 +39,12 @@ public class OpenApiConfig {
                                 .type(SecurityScheme.Type.HTTP)
                                 .scheme("bearer")
                                 .bearerFormat("JWT")
-                        ))
-                .tags(List.of(
-                        new Tag().name("Users").description("Operations about users"),
-                        new Tag().name("Books").description("Operations about books"),
-                        new Tag().name("Orders").description("Operations about orders"),
-                        new Tag().name("Cart").description("Operations about shopping cart")
-                ));
+                        ));
+//                .tags(List.of(
+//                        new Tag().name("Users").description("Operations about users"),
+//                        new Tag().name("Books").description("Operations about books"),
+//                        new Tag().name("Orders").description("Operations about orders"),
+//                        new Tag().name("Cart").description("Operations about shopping cart")
+//                ));
     }
 }

@@ -1,4 +1,4 @@
-package com.adil.bookstore.service;
+package com.adil.bookstore.service.auth;
 
 import com.adil.bookstore.entity.User;
 import com.adil.bookstore.entity.UserPrincipal;

@@ -1,4 +1,4 @@
-package com.adil.bookstore.service;
+package com.adil.bookstore.service.auth;
 
 import com.adil.bookstore.dto.auth.LoginRequest;
 import com.adil.bookstore.dto.auth.LoginResponse;

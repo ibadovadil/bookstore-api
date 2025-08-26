@@ -1,4 +1,4 @@
-package com.adil.bookstore.service;
+package com.adil.bookstore.service.auth;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
